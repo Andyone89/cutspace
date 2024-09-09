@@ -1,9 +1,12 @@
-// Bas
+// Base
 
+@import "./base/vars.scss";
 @import "./base/reset.scss";
 @import "./base/base";
 
 // blocks
 
-@import"./blocks/nav";
-@import"./blocks/logo";
+@import "./blocks/nav";
+@import "./blocks/logo";
+@import "./blocks/navigation-list";
+@import "./blocks/header";
