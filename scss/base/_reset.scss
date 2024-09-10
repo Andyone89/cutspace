@@ -26,3 +26,8 @@ input:focus, button:focus {
 ul, li{
     list-style: none;
 }
+
+button{
+    cursor: pointer;
+    background-color: none;
+}
