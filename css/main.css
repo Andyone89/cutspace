@@ -32,9 +32,15 @@ button, input[type=submit] {
   background-color: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 html, body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  line-height: 1.6875;
   color: #323232;
 }
 
@@ -107,6 +113,14 @@ html, body {
   margin-bottom: 1em;
 }
 
+.header__form {
+  margin-top: 42px;
+}
+
+.header__img img {
+  border-radius: 40px 40px 40px 0;
+}
+
 .form {
   background: #fff;
   box-shadow: 0px 16px 42px rgba(0, 0, 0, 0.12);
@@ -163,4 +177,65 @@ html, body {
 }
 .button:hover {
   background-color: #ff6a00;
+}
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.clients__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.objects {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.objects__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.objects__img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.objects__text {
+  max-width: 543px;
+  padding-left: 180px;
+}
+.objects__text p + p {
+  margin-top: 20px;
+}
+
+.objects__title {
+  margin-bottom: 20px;
+}
+
+.objects__button {
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 42px;
+  line-height: 1.476;
+  font-weight: 700;
+}
+
+.image-card + .image-card {
+  margin-left: 32px;
+}
+
+.image-card__img {
+  border-radius: 20px 20px 0px 20px;
+}
+.image-card--rounder .image-card__img {
+  border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */
