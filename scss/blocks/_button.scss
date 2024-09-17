@@ -15,4 +15,15 @@
         background-color: $accent-color-hover;
     }
 
+    &--white{
+        background-color: #fff;
+        color: $black-color ;
+        transition: background-color 0.2s ease-in, color 0.2s easy-in;
+    }
+
+    &:hover {
+background-color: $black-color;
+color: #fff;
+    }
+
 }

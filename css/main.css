@@ -186,6 +186,15 @@ body {
 .button:hover {
   background-color: #ff6a00;
 }
+.button--white {
+  background-color: #fff;
+  color: #323232;
+  transition: background-color 0.2s ease-in, color 0.2s easy-in;
+}
+.button:hover {
+  background-color: #323232;
+  color: #fff;
+}
 
 .clients {
   padding-top: 100px;
@@ -293,8 +302,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 95px;
   border-radius: 20px;
   background-color: #58bebf;
+  color: #fff;
 }
 
 .cta__img {
@@ -303,4 +314,22 @@ body {
   padding-right: 25px;
   background-color: white;
   border-radius: 0 20px 0 0;
+}
+
+.cta__text {
+  width: 364px;
+}
+.cta__text p {
+  width: 320px;
+}
+
+.cta__title {
+  margin-bottom: 15px;
+}
+
+.cta__buttons-row {
+  margin-top: 30px;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }/*# sourceMappingURL=main.css.map */
