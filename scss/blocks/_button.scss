@@ -26,4 +26,27 @@ background-color: $black-color;
 color: #fff;
     }
 
+    &--play{
+        padding-left: 50px;
+        position: relative;
+
+        &::before {
+
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            content: "";
+            display: block;
+            width: 12px;
+            height: 12px;
+
+
+            background-image: url('./../../img/icons/play.svg');
+            background-size: initial;
+            background-repeat: no-repeat;
+        }
+    }
+
 }
