@@ -1,8 +1,9 @@
-html, body{
-font-family: "Poppins", sans-serif;
-font-size: 16px;
-line-height: 1.6875;
-color: #323232;
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.6875;
+    color: #323232;
 }
 
 .container {
@@ -10,5 +11,15 @@ color: #323232;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
-    padding-right: 16px
+    padding-right: 16px;
+
+
+    &--fluid {
+        max-width: unset;
+        width: 100%;
+    }
+
+    &--no-padding{
+        padding: 0;
+    }
 }
