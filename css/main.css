@@ -355,4 +355,24 @@ body {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
+}
+
+.serve {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f5f6fa;
+}
+
+.serve__heading {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.serve__heading .title {
+  margin-bottom: 10px;
+}
+
+.serve__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }/*# sourceMappingURL=main.css.map */
