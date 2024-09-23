@@ -433,4 +433,34 @@ body {
 
 .card-customer-text {
   margin-bottom: 25px;
+}
+
+.benefits {
+  padding-bottom: 110px;
+}
+
+.benefits__heading {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.benefits__row {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+
+.benefit-item {
+  text-align: center;
+}
+
+.benefit-item__img {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.benefit-item__title {
+  margin-bottom: 2px;
+  font-size: 28px;
 }/*# sourceMappingURL=main.css.map */
