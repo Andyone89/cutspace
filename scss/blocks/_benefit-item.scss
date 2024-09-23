@@ -1,18 +1,37 @@
 .benefit-item {
-    text-align: center;
+  text-align: center;
 
-    &__img {
-        margin-bottom: 15px;
-        display: inline-block;
+  &__img {
+    margin-bottom: 15px;
+    display: inline-block;
+
+    circle {
+      fill: rgba(88, 190, 191, 0.2);
+      transition: fill 0.2s ease-in;
     }
 
+    path, ellipse {
+      fill: #58bebf;
+      transition: fill 0.2s ease-in;
+    }
+  }
+
+
+&:hover .benefit-item__img {
+    circle {
+        fill: #f78434;
+    }
+
+    path, ellipse{
+        fill: #fff;
+    }
 }
 
-
-
-
+}
 
 .benefit-item__title {
-    margin-bottom: 2px;
-    font-size: 28px;
+  margin-bottom: 2px;
+  font-size: 28px;
 }
+
+
