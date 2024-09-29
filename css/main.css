@@ -518,10 +518,32 @@ body {
   position: relative;
 }
 
-.card-testimonial__btn-play {
+.card-testimonial__button-play {
   position: absolute;
   right: 20px;
   bottom: 20px;
+  transform: translateY(50%);
+  opacity: 0;
+  transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+}
+.card-testimonial:hover .card-testimonial__button-play {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card-testimonial__button-svg circle {
+  fill: #fff;
+  transition: fill 0.2s ease-in;
+}
+.card-testimonial__button-svg path {
+  fill: #f78434;
+  transition: fill 0.2s ease-in;
+}
+.card-testimonial__button-svg:hover circle {
+  fill: #f78434;
+}
+.card-testimonial__button-svg:hover path {
+  fill: #fff;
 }
 
 .card-testimonial__body {
