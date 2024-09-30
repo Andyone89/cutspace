@@ -615,6 +615,11 @@ body {
   margin-bottom: 82px;
 }
 
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer__info {
   max-width: 300px;
 }
@@ -635,4 +640,26 @@ body {
 }
 .footer__socials a:hover img {
   opacity: 0.8;
+}
+
+.footer__nav {
+  display: flex;
+  -moz-column-gap: 85px;
+       column-gap: 85px;
+}
+
+.footer__nav-block {
+  font-size: 14px;
+}
+.footer__nav-block li {
+  margin-bottom: 14px;
+}
+.footer__nav-block a:hover {
+  color: #f78434;
+}
+
+.footer__nav-block-title {
+  margin-bottom: 18px;
+  font-size: 21px;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
